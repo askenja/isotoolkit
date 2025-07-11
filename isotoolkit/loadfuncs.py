@@ -226,10 +226,9 @@ class BaseIsochroneForm:
 
     def print_photometric_systems(self):
         """Print available photometric systems."""
-        print(f"Available photometric systems for {self.get_library_name()}")
-        print({':<15'}.format('Parameter name'),'Description')        
-        for key,value in self.photometric_systems.items():
-            print({':<15'}.format(key), value)
+        print(f"Available photometric systems for {self.get_library_name()}\n"+'-'*75)
+        for key in self.photometric_systems.keys():
+            print(key)
 
     def set_photometry(self):
         raise NotImplementedError
