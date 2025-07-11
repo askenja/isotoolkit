@@ -8,12 +8,12 @@ You can install **isotoolkit** easily from source.
 
 #### Standard user installation
 ```bash
-pip install git+https://github.com/yourusername/isotoolkit.git
+pip install git+https://github.com/askenja/isotoolkit.git
 ```
 
 #### Installation in the development mode
 ```bash
-git clone https://github.com/yourusername/isotoolkit.git
+git clone https://github.com/askenja/isotoolkit.git
 cd isotoolkit
 pip install -e .
 ```
