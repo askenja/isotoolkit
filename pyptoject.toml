@@ -1,0 +1,23 @@
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isotoolkit"
+version = "0.1.0"
+description = "Tools for downloading and formatting stellar evolution isochrones (PARSEC, MIST, and BaSTI)"
+authors = [
+  { name="Kseniia Sysoliatina", email="k.sysoliatina@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+  "numpy",
+  "requests",
+  "selenium",
+  "webdriver-manager"
+]
+
+[tool.setuptools]
+packages = ["isotoolkit"]
